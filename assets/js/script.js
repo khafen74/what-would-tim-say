@@ -1,13 +1,13 @@
-function changeTimText(id) {
+function changeTimText() {
     newtext = getText();
-    document.getElementById(id).innerHTML = newtext;
+    document.getElementById("button-result").innerHTML = newtext;
 }
 
 function getText() {
     var sayings = [
-        "Well, I think that's a great idea",
+        "Well, I think that's a great idea!",
         "You know, that reminds me . . .",
-        "Yeah, I'm not sure if I'd do that exactly"
+        "Yeah, I'm not sure if I'd do that exactly."
     ];
-    return sayings[Math.floor(Math.random() * saying.length)];
+    return sayings[Math.floor(Math.random() * sayings.length)];
 }
