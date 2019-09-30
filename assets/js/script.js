@@ -12,7 +12,7 @@ function getText() {
         "Let me put my drinking pants on.", 
         "I think you should have three reasons to do something.", 
         "It's a triple win! No! . . . It's a quadrouple win! It's a win win win win!!!!!!!", 
-        "Let's ask one off the ass. deans."
+        "Let's ask one off the ass. deans.",
     ];
     return sayings[Math.floor(Math.random() * sayings.length)];
 }
