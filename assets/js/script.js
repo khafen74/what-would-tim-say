@@ -11,7 +11,8 @@ function getText() {
         "I like prelims because you can get beers.",
         "Let me put my drinking pants on.", 
         "I think you should have three reasons to do something.", 
-        "It's a triple win! No! . . . It's a quadrouple win! It's a win win win win!!!!!!!"
+        "It's a triple win! No! . . . It's a quadrouple win! It's a win win win win!!!!!!!", 
+        "Let's ask one off the ass. deans."
     ];
     return sayings[Math.floor(Math.random() * sayings.length)];
 }
